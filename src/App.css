@@ -1,0 +1,88 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #121212;
+  color: #00ff41;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #00ff41;
+  border-radius: 10px;
+  background-color: #1e1e1e;
+  box-shadow: 0 0 15px rgba(0, 255, 65, 0.3);
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input[type="text"],
+.input-group input[type="range"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #00ff41;
+  border-radius: 5px;
+  background-color: #2b2b2b;
+  color: #00ff41;
+  font-size: 1em;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #00ff41;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #121212;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button-group button:hover {
+  background-color: #00cc33;
+}
+
+.output-group {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.output-group h2 {
+  font-size: 1.5em;
+}
+
+.output-group p {
+  word-break: break-all;
+  font-size: 1.2em;
+}
+
+.output-group ul {
+  padding-left: 20px;
+}
+
+.output-group li {
+  word-break: break-all;
+}
